@@ -2,7 +2,7 @@ version: '2'
 
 services:
   postgres:
-    image: postgres:14.1
+    image: postgres:14.17
     volumes:
       - ./postgresql-data:/var/lib/postgresql/data/pgdata
     environment:
