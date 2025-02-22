@@ -128,7 +128,7 @@ jobs:
         otp: ["24.1"]
     services:
       db:
-        image: postgres:13-alpine
+        image: postgres:17-alpine
         ports: ["5432:5432"]
         env:
           POSTGRES_PASSWORD: postgres
